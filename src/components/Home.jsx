@@ -12,10 +12,10 @@ export default function Home() {
       </div>
     
     <div className="redirects">
-      <Link to="/about" className="redirect-about">
+      <Link to="/about" className="button1">
         Learn More About Me
       </Link>
-      <Link to="/projects" className="redirect-projects">
+      <Link to="/projects" className="button2">
         View My Work
       </Link>
     </div>
