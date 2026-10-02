@@ -1,3 +1,4 @@
+// Component to display education and experience information
 export default function Education() {
   return (
     <section className="education-page">
@@ -6,6 +7,7 @@ export default function Education() {
         <p>A list of my educational background</p>
       </div>
 
+      {/* Academic credentials */}
       <div className="education-list">
         <div className="education1">
           <h3>Durham College</h3>
@@ -19,6 +21,7 @@ export default function Education() {
         </div>
       </div>
 
+      {/* Professional experience */}
       <div className="experience-list">
         <div className="experience1">
           <h3>Software Developer</h3>

@@ -1,8 +1,11 @@
+// Import Link component from react-router-dom for navigation
 import { Link } from "react-router-dom";
 
+// Component for the Home page that welcomes users and provides navigation links to the About and Projects pages.
 export default function Home() {
   return (
     <section className="home-page">
+      {/* Welcome message section */}
       <div className="welcome-message">
         <h1>Welcome to My Portfolio</h1>
         
@@ -11,6 +14,7 @@ export default function Home() {
         </p>
       </div>
     
+    {/* Navigation links to About and Projects pages */}
     <div className="redirects">
       <Link to="/about" className="button1">
         Learn More About Me
